@@ -1,0 +1,19 @@
+{
+    "files.eol": "\n",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": [
+        "source.fixAll.markdownlint"
+    ],
+    "markdownlint.config": {
+        "MD004": {
+            "style": "asterisk"
+        },
+        "MD036": true,
+        "MD013": false,
+        "MD033": false
+    },
+    "git.enableCommitSigning": true,
+    "git.alwaysSignOff": false,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.defaultProfile.linux": "bash"
+}

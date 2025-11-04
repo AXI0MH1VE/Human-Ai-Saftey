@@ -1,0 +1,5 @@
+.DS_Store
+node_modules/
+dist/
+.env
+.vscode/settings.json            # optional: if you want team-wide, remove this line

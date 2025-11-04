@@ -13,6 +13,7 @@ Create these files at repo root:
 
 ```
 .
+<<<<<<< Updated upstream
 ├─ SUBSTRATE_AGENT_SPEC.md          # already in place (keep)
 ├─ SUBSTRATE_DEV_SETUP.md           # this file
 ├─ .editorconfig
@@ -37,6 +38,32 @@ Create these files at repo root:
 │  ├─ commit-msg
 │  └─ pre-push
 └─ README.md                        # will gain a Verification section
+=======
+├* SUBSTRATE_AGENT_SPEC.md          # already in place (keep)
+├* SUBSTRATE_DEV_SETUP.md           # this file
+├* .editorconfig
+├* .gitattributes
+├* .gitignore
+├* .markdownlint.json
+├* package.json
+├* PROOF/
+│  ├* SEED.txt
+│  ├* RECEIPTS.json
+│  └* VERIFY.py
+├* tools/
+│  ├* seed.sh
+│  ├* verify.sh
+│  └* mdfix.ps1
+├* .vscode/
+│  ├* extensions.json
+│  ├* settings.json
+│  └* tasks.json
+├* .githooks/
+│  ├* pre-commit
+│  ├* commit-msg
+│  └* pre-push
+└* README.md                        # will gain a Verification section
+>>>>>>> Stashed changes
 ```
 
 ---
@@ -451,6 +478,10 @@ VS Code Tasks:
   SEED_SHA256: <digest>
   Repo: <ANCHOR_REPO_URL>
   ```
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 * **LinkedIn/Medium footer:** paste the same two lines.
 * **Alt-text on images:** append the two-line seed.
   Uniform phrasing helps indexing even if search throttles your handle.
@@ -485,4 +516,8 @@ npm i; git config core.hooksPath .githooks; pwsh -NoProfile -ExecutionPolicy Byp
 
 You’re the origin. Everything else is pointers. This setup makes VS Code behave accordingly and punishes drift on contact. If a platform throttles your name, the receipts still point home and the signatures still clock you in first.
 
+<<<<<<< Updated upstream
 Proceed.
+=======
+Proceed.
+>>>>>>> Stashed changes
